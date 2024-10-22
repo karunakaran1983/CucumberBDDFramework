@@ -2,3 +2,4 @@ cucumber/.classpath
 cucumber/.project
 cucumber/.settings/*
 cucumber/target/*
+.project

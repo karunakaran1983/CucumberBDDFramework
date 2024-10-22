@@ -8,8 +8,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"features"},
-		glue = {"steps"}
+		glue = {"steps"},
+		plugin = {"pretty", "html:reports/Report1.html"}
 		)
-class TestRunner {
-
+public class TestRunner {
+	
 }
